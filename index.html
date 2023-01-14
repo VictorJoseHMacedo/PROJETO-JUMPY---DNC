@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Arimo:ital@1&display=swap" rel="stylesheet">
+
+
+    <title> Login Jumpy </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <img id="logoDNC" src="logo_dnc.png" width="100px">
+    
+    <img id="logoJUMPY" src="logo_jumpy_preto.png" width="100px">
+
+    <p id="text">Bem vindo ao Jumpy!</p>
+    
+    <section>
+        <form>
+
+        <label>Nome completo:</label><br>
+        <input type="text" name="name" placeholder="Nome completo">
+        <p class="paragrafo"></p>
+        
+        <label>Email:</label><br>
+        <input type="email" name="e-mail" placeholder="Email@email.com">
+        <p class="paragrafo"> </p>
+        
+        <label>Telefone:</label><br>
+        <input type="tel" name="phone" placeholder="(24)99153-4965">
+        <p class="paragrafo"></p>
+
+        <label>CPF:</label><br>
+        <input type="text" name="cpf" placeholder="452.849.235-980">
+        <p class="paragrafo"></p>
+
+        <label>Senha:</label><br>
+        <input type="password" name="password" placeholder="*************">
+        <p class="paragrafo"></p>
+        
+        <button onclick="checarCampos();return false;">Cadastrar</button>
+        <p class="paragrafo-geral"></p>
+    
+        </form>
+    </section>
+
+    
+    <script src="java.js"></script>
+</body>
+</html>
